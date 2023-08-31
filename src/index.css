@@ -1,0 +1,33 @@
+*{
+  font-family: "Vazir", "Tahoma", 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Vazir", "Tahoma", 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #282a36;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: "Vazir", "Tahoma", 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar {
+  background: #44475a;
+  border: 1px solid #44475a;
+  height: 5px;
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  --webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bd93f9;
+  border-radius: 5px;
+}
